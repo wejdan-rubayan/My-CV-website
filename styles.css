@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e3e4fc;
+}
+
+header, .hero, .aboutMe, .education, .skills, .projects, .Contact {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navigation a:hover {
+    color: rgb(165, 99, 200);
+}
+
+.herosub {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 4rem;
+    color: rgb(53, 27, 79);
+}
+
+h1, .aboutName {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+}
+
+.aboutName, 
+.education .aboutName, 
+.skills .aboutName, 
+.projects h1, 
+.aboutTitle {
+    color: rgb(165, 99, 200);
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+#githubBtn{
+    background-color: rgb(53, 27, 79);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    margin-left: 10px;
+}
+#githubBtn:hover{
+    background-color: rgb(165, 99, 200);
+}
